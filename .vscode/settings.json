@@ -1,0 +1,17 @@
+{
+  /** disable rule to allow @tailwind imports
+  * @see https://stackoverflow.com/a/62093553/1238150
+  * @see https://github.com/microsoft/vscode/issues/103163#issuecomment-672272020
+  * @see https://www.meidev.co/blog/visual-studio-code-css-linting-with-tailwind/
+  */
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.eol": "\n",
+  /**
+  * TYPESCRIPT
+  */
+  "typescript.tsdk": "./node_modules/typescript/lib",
+}

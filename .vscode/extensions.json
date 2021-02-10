@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "pflannery.vscode-versionlens",
+    "stylelint.vscode-stylelint",
+    "syler.sass-indented",
+    "wayou.vscode-todo-highlight",
+    "ziyasal.vscode-open-in-github",
+  ]
+}
