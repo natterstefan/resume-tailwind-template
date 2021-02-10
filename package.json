@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-tailwind-template",
+  "name": "resume-tailwind-template",
   "version": "0.1.0",
   "license": "MIT",
   "private": true,
@@ -19,6 +19,7 @@
     "@types/node": "^14.14.10",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "all-contributors-cli": "^6.19.0",
     "autoprefixer": "^10.0.4",
     "babel-eslint": "^10.1.0",
     "enzyme": "^3.11.0",
