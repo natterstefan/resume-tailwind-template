@@ -1,7 +1,6 @@
-# nextjs-tailwind-template
+# resume-tailwind-template
 
-This is a template repository with [Tailwind CSS](https://tailwindcss.com) in a
-Next.js project.
+Create your own resume in a few minutes.
 
 ## Start
 
@@ -14,11 +13,7 @@ yarn dev
 
 Deploy the example using [Vercel](https://vercel.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/natterstefan/nextjs-tailwind-template)
-
-## References
-
-- based on <https://github.com/vercel/next.js/tree/master/examples/with-tailwindcss>
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/natterstefan/resumee-tailwind-template)
 
 ## License
 
