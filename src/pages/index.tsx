@@ -4,10 +4,11 @@ import Head from 'next/head'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-import { Navigation } from '@/components/navigation'
 import { Page } from '@/components/page'
 import { AppLayout } from '@/layouts/AppLayout'
 import { NextPageType } from '@/types/next'
+import { Header } from '@/components/header'
+import { WhatIDo } from '@/components/what-i-do'
 
 const IndexPage: NextPageType = () => {
   const { t } = useTranslation('common')
@@ -15,16 +16,12 @@ const IndexPage: NextPageType = () => {
   return (
     <>
       <Head>
-        <title>natterstefan/resume-tailwind-template</title>
+        <title>{t('natterstefan/resume-tailwind-template')}</title>
       </Head>
       <Page>
         <Page.Content>
-          <Navigation />
-          <div className="py-20">
-            <h1 className="text-5xl text-center text-accent-1">
-              {t('headline')}
-            </h1>
-          </div>
+          <Header />
+          <WhatIDo />
         </Page.Content>
       </Page>
     </>

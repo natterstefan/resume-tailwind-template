@@ -1,0 +1,11 @@
+h2.title {
+  &:before {
+    content: '';
+    @apply absolute bottom-0 w-full h-2px bg-gray-100;
+  }
+
+  &:after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-8 h-2px bg-green-500;
+  }
+}
