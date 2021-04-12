@@ -2,11 +2,23 @@
 
 Create your own resume in a few minutes.
 
-## Start
+## Installation & Setup
 
 ```bash
-yarn
+./gradlew dev
+```
+
+Once the task is completed you can start the app with yarn dev.
+
+## start
+
+```bash
+# development mode
 yarn dev
+
+# production mode
+yarn build
+yarn start
 ```
 
 ## Deploy your own
@@ -39,3 +51,5 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+_based on <https://github.com/natterstefan/nextjs-template>_

@@ -52,8 +52,9 @@ typings/
 # Optional npm cache directory
 .npm
 
-# Optional eslint cache
+# Optional eslint and stylelint cache
 .eslintcache
+.stylelintcache
 
 # Optional jest cache
 .jest-cache
@@ -122,3 +123,14 @@ dist
 # misc
 .DS_Store
 *.pem
+tmp
+
+# build-files
+/version.js
+/version.ts
+
+# Gradle
+.gradle
+
+# storybook
+storybook-static

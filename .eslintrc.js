@@ -8,13 +8,19 @@ module.exports = {
      * @see https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/issues/402#issuecomment-368305051
      */
     'jsx-a11y/anchor-is-valid': 0,
-    /**
-     * Allowed but we should be aware to not overuse this.
-     */
-    'react/jsx-props-no-spreading': 0,
-    /**
-     * Configured in tsconfig.json instead
-     */
-    '@typescript-eslint/explicit-module-boundary-types': 0,
   },
+  overrides: [
+    {
+      files: [
+        './src/**/__stories__/*.stories.ts',
+        './src/**/__stories__/*.stories.tsx',
+      ],
+      rules: {
+        'global-require': 0,
+        'import/no-extraneous-dependencies': 0,
+        'max-classes-per-file': 0,
+        'no-console': 0,
+      },
+    },
+  ],
 }
