@@ -7,7 +7,7 @@ const Content: FunctionComponent = ({ children }) => {
 export function Page({ children }: React.PropsWithChildren<any>) {
   return (
     <div className="container w-full p-4 mx-auto sm:p-6 sm:py-[50px]">
-      {children}{' '}
+      {children}
     </div>
   )
 }

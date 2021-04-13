@@ -1,13 +1,13 @@
 import React from 'react'
 import { GetServerSideProps } from 'next'
 import Head from 'next/head'
-import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 import { Page } from '@/components/page'
 import { AppLayout } from '@/layouts/AppLayout'
 import { NextPageType } from '@/types/next'
 import { Header } from '@/components/header'
+import { WhatIDo } from '@/components/what-i-do'
 
 const IndexPage: NextPageType = () => {
   return (
@@ -17,7 +17,10 @@ const IndexPage: NextPageType = () => {
       </Head>
       <Page>
         <Page.Content>
-          <Header />
+          <div className="space-y-16">
+            <Header />
+            <WhatIDo />
+          </div>
         </Page.Content>
       </Page>
     </>
