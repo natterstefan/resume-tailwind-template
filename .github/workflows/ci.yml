@@ -15,4 +15,4 @@ jobs:
       - run: ./gradlew --console=plain dev
       - run: ./gradlew --console=plain writeVersion
       - run: yarn lint
-      - run: yarn test
+      - run: yarn test --passWithNoTests
