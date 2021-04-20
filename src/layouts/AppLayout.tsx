@@ -6,7 +6,7 @@ export const AppLayout: FC = ({ children }) => {
   useChangeLocation()
 
   return (
-    <div className="flex h-screen overflow-hidden bg-gray-100">
+    <div className="flex h-screen overflow-hidden bg-white">
       <div className="flex flex-col flex-1 w-0 overflow-hidden">
         <main
           className="relative flex-1 overflow-y-auto focus:outline-none"
