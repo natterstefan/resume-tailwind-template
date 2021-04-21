@@ -8,6 +8,7 @@ import { AppLayout } from '@/layouts/AppLayout'
 import { NextPageType } from '@/types/next'
 import { Header } from '@/components/header'
 import { WhatIDo } from '@/components/what-i-do'
+import { FunFacts } from '@/components/fun-facts/FunFacts'
 
 const IndexPage: NextPageType = () => {
   return (
@@ -20,6 +21,7 @@ const IndexPage: NextPageType = () => {
           <div className="space-y-16">
             <Header />
             <WhatIDo />
+            <FunFacts />
           </div>
         </Page.Content>
       </Page>
