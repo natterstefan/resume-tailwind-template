@@ -1,13 +1,11 @@
-import React, { ComponentType } from 'react'
+import React from 'react'
 import { FaPencilAlt, FaWarehouse } from 'react-icons/fa'
 import { FiMonitor } from 'react-icons/fi'
 import { HiOutlineSpeakerphone } from 'react-icons/hi'
 
-interface IItem {
-  icon: ComponentType
-  title: string
-  text: string
-}
+import { IItem } from '@/types/types'
+
+import { SectionTitle } from '../section-title'
 
 const ITEMS: IItem[] = [
   {
@@ -39,9 +37,9 @@ const ITEMS: IItem[] = [
 export const WhatIDo = () => {
   return (
     <div className="px-4 mx-auto space-y-4">
-      <h2 className="relative inline-block pb-2 text-2xl font-bold title">
-        What I do
-      </h2>
+      <SectionTitle>
+        <span>What I do</span>
+      </SectionTitle>
       <div className="flex flex-wrap -mx-6">
         {ITEMS.map(item => (
           <div
